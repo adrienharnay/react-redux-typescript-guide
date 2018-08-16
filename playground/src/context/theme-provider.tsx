@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 
 // Context
 const themes = {
@@ -40,7 +40,7 @@ export class App extends React.Component<{}, State> {
 }
 
 // Consumer
-interface ThemedButtonProps {}
+interface ThemedButtonProps { }
 
 function ToggleThemeButton(props: ThemedButtonProps) {
   return (
